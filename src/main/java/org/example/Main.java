@@ -26,5 +26,13 @@ public class Main {
         System.out.println(temperatura);
 
         garnek.gotujBezInformacji();
+
+
+        Uzytkownik majk = new Uzytkownik(20, "Majk");
+        if (majk.czyMozeLegalnieKupicAlkohol()) {
+            System.out.println("Moze kupic");
+        } else {
+            System.out.println("Nie moze kupic");
+        }
     }
 }
