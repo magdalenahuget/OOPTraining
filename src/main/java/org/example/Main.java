@@ -1,5 +1,8 @@
 package org.example;
 
+import org.example.garnek.Garnek;
+import org.example.garnek.Uzytkownik;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -34,5 +37,14 @@ public class Main {
         } else {
             System.out.println("Nie moze kupic");
         }
+
+
+        // Computer
+
+        Monitor monitor = new Monitor();
+        System.out.println(monitor.getResolution());
+
+        monitor.setLowResolution();
+        System.out.println(monitor.getResolution());
     }
 }

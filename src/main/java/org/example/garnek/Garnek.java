@@ -1,9 +1,9 @@
-package org.example;
+package org.example.garnek;
 
 public class Garnek {
-    int srednica;
-    int wysokosc;
-    String kolor;
+    public int srednica;
+    public int wysokosc;
+    public String kolor;
 
     public Garnek (int srednica, int wysokosc, String kolor) {
         this.srednica = srednica;

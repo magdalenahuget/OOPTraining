@@ -1,4 +1,4 @@
-package org.example;
+package org.example.garnek;
 
 public class Uzytkownik {
     private int wiek;

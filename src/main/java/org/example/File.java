@@ -1,12 +1,11 @@
 package org.example;
 
-public class Headphones {
+public class File {
     private final String name;
 
-    public Headphones(String name) {
+    public File(String name) {
         this.name = name;
     }
-
     public String getName() {
         return name;
     }
